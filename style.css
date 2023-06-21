@@ -1,0 +1,168 @@
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+# Weather Card
+--------------------------------------------------------------*/
+.weather__card {
+  max-width: 800px;
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  color: #3c4048;
+  margin: 0 auto;
+}
+
+.weather__card h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #3c4048;
+  line-height: 0.8;
+}
+
+.weather__card h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 0.8;
+  color: #3c4048;
+}
+
+.weather__card h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #9d9d9d;
+}
+
+.weather__card img {
+  width: 120px;
+  height: 120px;
+}
+
+.weather__card .weather__description {
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 5px 13px;
+  border: 0;
+  outline: none;
+  color: #7f8487;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/*--------------------------------------------------------------
+# Weather Status
+--------------------------------------------------------------*/
+.weather__status img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.weather__status span {
+  font-weight: 500;
+  color: #3c4048;
+  font-size: 0.9rem;
+  padding-left: 0.5rem;
+}
+
+/*--------------------------------------------------------------
+# Weather Forecast
+--------------------------------------------------------------*/
+.weather__forecast img {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+}
+
+.weather__forecast span {
+  font-weight: 500;
+  color: #3c4048;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+/*--------------------------------------------------------------
+# Input Element
+--------------------------------------------------------------*/
+
+.input-form form input.location {
+  border-radius: 10px !important;
+}
+
+
+/*--------------------------------------------------------------
+# Responsiveness
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .weather__card {
+    max-width: 800px;
+    width: 100%;
+    padding: 25px 15px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    color: #3c4048;
+    margin: 0 auto;
+  }
+
+  .weather__card h2 {
+    font-size: 2rem !important;
+  }
+
+  .weather__card img.weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .weather__card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #3c4048;
+  }
+
+  .weather__card h5 {
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #9d9d9d;
+  }
+
+  .weather__card .weather__description {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 13px;
+    border: 0;
+    outline: none;
+    color: #7f8487;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+
+  .weather__status .w-additional {
+    padding: 10px !important;
+  }
+
+  .weather__card .w-main-info {
+    padding: 12px !important;
+  }
+}
