@@ -1,5 +1,1 @@
-Api key = c5df16dfd56b45258d154259232006
 
-https://www.weatherapi.com/my/
-qjonlon@gmail.com
-Weather-app2023
