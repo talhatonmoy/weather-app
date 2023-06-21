@@ -1,0 +1,2 @@
+App Version: 1.0
+App link: https://weather-app-by-talha.netlify.app/
