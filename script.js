@@ -25,7 +25,6 @@ function work(e) {
         if (this.status === 200) {
             data = this.responseText;
             data = JSON.parse(data)
-            console.log(data)
 
             /**
              * Pushing Values to Frontend
